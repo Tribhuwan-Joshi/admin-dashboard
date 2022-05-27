@@ -6,11 +6,12 @@ body {
   width: 100%;
   font-family: "Roboto", sans-serif;
   cursor: default;
+    background-color: #e2e8f0;
 }
 .container {
   width: auto;
   height: 100%;
-  background-color: #e2e8f0;
+
   display: grid;
   grid-template-rows: 1fr 4fr;
   grid-template-columns: 1fr 5fr;
@@ -52,7 +53,7 @@ body {
   padding-left: 40px;
   padding-top: 15px;
   padding-right: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   height: fit-content;
 }
 
@@ -137,7 +138,7 @@ img[src*="pfp"] {
  justify-content: center;
  align-items: center;
  width: fit-content;
-  margin-right: 35px;
+  margin:0  10px;
   gap: 25px;
 }
 .action button {
@@ -145,7 +146,7 @@ img[src*="pfp"] {
   background-color: #1992d4;
   color: white;
   border-radius: 20px;
-  width: 120px;
+  width: 105px;
   padding: 10px;
   font-size: 18px;
 }
