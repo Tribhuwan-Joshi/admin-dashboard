@@ -232,6 +232,7 @@ img[src*="pfp"] {
   max-height: 400px;
   display: grid;
   grid-template-rows: auto 1fr;
+ 
 
  
   
@@ -254,6 +255,7 @@ img[src*="pfp"] {
   box-shadow: 1px 1px 2px gray;
   border-radius: 10px;
     overflow: auto;
+   
 
   padding:4% 7% 8% 7%;
 }
@@ -271,7 +273,35 @@ img[src*="pfp"] {
 
 
 /* Trending */
+[class*="user"]{
+  display: flex;
+  flex-basis: 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap:5%;
+
+}
 .bottom img{
-  width: 50px;
+  width: 55px;
   border-radius: 100%;
+  border: 1px solid black;
+}
+
+.trends{
+  display: grid;
+  grid-template-rows: repeat(4,1fr);
+  gap:2%;
+  padding-right: 10%;
+}
+.trends .user{
+  
+  /* height: 10px; */
+  margin-bottom: 0px;
+}
+.info .tag{
+  font-size: 16px;
+}
+.info .proj{
+  color:#656465;
+  font-size: 14px;
 }
